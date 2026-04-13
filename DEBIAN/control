@@ -1,0 +1,26 @@
+Package: EssoraKB
+Maintainer: josejp2424 <puppylinuxjosejp2424@gmail.com>
+Architecture: amd64
+Version: 0.1.2
+Installed-Size: 1289
+Depends: yad, xterm, xdotool 
+Provides: Development
+Section:  Development
+Priority: optional
+Homepage: https://sourceforge.net/projects/essora/
+Description: EssoraKB — Graphical Kernel Builder for Essora Linux
+ EssoraKB is a graphical frontend for compiling custom Linux kernels
+ and generating Debian-compatible .deb packages, designed specifically
+ for Essora Linux (Devuan/OpenRC based).
+ .
+ Features:
+  - Install all kernel build dependencies in one click
+  - Check missing dependencies without installing
+  - Download kernel sources and compile with make bindeb-pkg
+  - Generates linux-image, linux-headers, linux-kbuild and
+    linux-libc-dev .deb packages ready to install
+  - Pre-configured DOTconfig profiles for x86_64
+  - ccache support for faster recompilation
+  - Multilingual interface: en, es, fr, de, it, pt, ar, ca, hu, ru, ja, zh
+  - Embedded YAD authentication dialog (no external gksu required)
+  - Integrated xterm terminal with Catppuccin Mocha theme||
