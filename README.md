@@ -58,7 +58,7 @@ All kernel build dependencies are installed by the program itself via the **Inst
 
 ## Installation
 
-Download the `.deb` package from [SourceForge](https://sourceforge.net/projects/essora/) and install it:
+Download the `.deb` package from [SourceForge](https://sourceforge.net/projects/essora/files/Eos/packages/essorakb_0.1.2_amd64.deb) and install it:
 
 ```bash
 sudo dpkg -i EssoraKB_0.1.2_amd64.deb
